@@ -1,0 +1,471 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+
+  background-blend-mode: multiply;
+  background-image: url(../images/macbook.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(59, 67, 76, 0.8);
+  font-size: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.menu {
+  padding-left: 70%;
+  color: white;
+  text-decoration: none;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.offer {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.offer-title {
+  color: white;
+  font-size: 70px;
+  font-family: "Open Sans - Extrabold";
+  font-weight: 400;
+}
+
+.offer-title-orang {
+  color: #f7600e;
+  font-family: "Open Sans - Extrabold";
+  font-weight: 400;
+}
+
+.offer-text {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.offer-buttons-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #B8337F;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.top-button {
+  color: white;
+  border: none;
+  font-size: 34px;
+  background: transparent;
+}
+
+.top-button:hover {
+  background-color: blue;
+  color: darkseagreen;
+}
+
+.offer-button2:hover {
+  background-color: blue;
+  color: darkseagreen;
+}
+
+.offer-button1 {
+  margin-right: 10px;
+  background-color: #f7600e;
+}
+
+.offer-button1:hover {
+  background-color: blue;
+}
+
+/*-- block1 --*/
+.design {
+  display: flex;
+  margin-top: 10%;
+  padding-bottom: 15%;
+}
+
+.print, .web, .app, .logo-de {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #b5b5b5;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.print-text, .web-text, .app-text, .logo-text {
+  margin: 0;
+}
+
+/*--design--*/
+/*--design new--*/
+.our-services {
+  margin-top: 2%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.our-services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  text-align: center;
+  font-weight: 400;
+  color: #3b434c;
+
+}
+
+.our-services-box .box-title {
+
+  font-family: "OpenSans-Italic";
+  font-size: 16px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.our-services-box .box-text {
+
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.box-text {
+  max-height: 20%;
+  font-family: "Open Sans - Semibold";
+  font-weight: 400;
+}
+
+.our-services-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 19%;
+}
+
+/*--design new--*/
+/*--tablet--*/
+.tablet {
+  background-image: url("../images/tablet.png");
+  padding: 5%;
+  margin-top: 5%;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(59, 67, 76, 0.8);
+  font-size: 16px;
+
+}
+
+.block3-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.button-email {
+  border: 1px solid green;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-right: 30%;
+  background-color: white;
+  padding: 6px 22px;
+}
+
+.button-submit {
+  padding: 6px 20px;
+  background-color: #f7600e;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+input[type="email"] {
+  border: none;
+}
+
+/*--design new--*/
+/*--our works--*/
+.text-work {
+  max-width: 2500px;
+}
+
+.header-3 {
+  padding: 25px;
+  width: 100%;
+}
+
+.text-work-h {
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  padding: 0 31%;
+  font-family: "Open Sans - Semibold";
+}
+
+.text-work2 {
+  color: red;
+  font-family: "Open Sans - Semibold";
+}
+
+.text-work-h3 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+/*--foto works--*/
+.foto-works {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1084px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.foto-1, .foto-2, .foto-3, .foto4, .tofo-5, .foto-6 {
+
+  margin: 1px;
+  width: 31%;
+}
+
+.button-submit-block-4 {
+  padding: 6px 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  color: #f7600e;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.button-submit-block-4:hover {
+  background-color: grey;
+}
+
+.foto-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 31%;
+  background-color: #f7600e;
+  color: white;
+  font-family: "Open Sans";
+
+}
+
+#button-submit-block {
+  margin: 120px auto;
+  padding: 13px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 199px;
+
+  text-align: center;
+  color: black;
+}
+
+#button-submit-block:hover {
+  background-color: grey;
+}
+
+/*-- our works--*/
+/*-- avatar--*/
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/our-team/woman.png");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(59, 67, 76, 0.7);
+  font-size: 16px;
+}
+
+.avatar-foto {
+  margin-top: 51px;
+  margin-bottom: 100px;
+}
+
+.avatar-text {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-style: italic;
+  line-height: 40px;
+  margin: 0;
+}
+
+/*-- avatar--*/
+/*-- our team start--*/
+.our-team {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.our-team-h2 {
+  color: black;;
+  font-size: 35px;
+  font-family: "OpenSans-bold";
+  font-weight: 400;
+}
+
+.our-team-h2-change {
+  color: #f7600e;
+  font-family: "Open Sans - Extrabold";
+  font-weight: 400;
+}
+
+.foto-team {
+  display: flex;
+
+}
+
+.foto-works {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1157px;
+}
+
+.foto-team-1, .foto-team-2, .foto-team-3, .foto-team-4 {
+  max-width: 23%;
+}
+
+.foto-team-icon-1 {
+
+}
+
+.icon-point {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 4% auto;
+}
+
+/*-- our team- end-*/
+/*-- form-*/
+.input-down {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form {
+  background-image: url("../images/contact/city.png");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(59, 67, 76, 0.7);
+  font-size: 16px;
+}
+
+.text-email {
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px 0;
+  width: 207px;
+}
+
+.subject {
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px 0;
+  width: 207px;;
+}
+
+.submit {
+  justify-content: center;
+  display: flex;
+  margin-top:5%;
+}
+
+.submit-down-button {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #f7600e;
+  padding: 10px 15px;
+  border-radius: 7px;
+  transition: color .5s ease;
+  width: 107px;
+}
+
+input[type="text"], input[type="email"], input[type="submit"] {
+  border: none;
+  list-style: none;
+
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  margin-right: 5px;
+  border: 1px solid #000;
+  padding: 3px;
+}
+
+.submit-down {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 44px 0 10px 0;
+}
+
+/*-- form end-*/
