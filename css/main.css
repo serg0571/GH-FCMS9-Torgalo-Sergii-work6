@@ -19,7 +19,6 @@ a {
 }
 
 .header {
-
   background-blend-mode: multiply;
   background-image: url(../images/macbook.png);
   background-repeat: no-repeat;
@@ -429,7 +428,7 @@ img {
 .submit {
   justify-content: center;
   display: flex;
-  margin-top:5%;
+  margin-top: 5%;
 }
 
 .submit-down-button {
