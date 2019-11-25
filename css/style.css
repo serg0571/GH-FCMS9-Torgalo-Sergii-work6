@@ -293,7 +293,7 @@ img {
 }
 
 .button-submit-block-4:hover {
-  background-color: grey;
+  background-color: blue;
 }
 
 .foto-6 {
@@ -320,7 +320,7 @@ img {
 }
 
 #button-submit-block:hover {
-  background-color: grey;
+  background-color: blue;
 }
 
 /*-- our works--*/
@@ -385,6 +385,9 @@ img {
 .foto-team-1, .foto-team-2, .foto-team-3, .foto-team-4 {
   max-width: 23%;
 }
+img:hover{
+  background-color: blue;
+}
 
 .foto-team-text {
   overflow: scroll;
@@ -444,6 +447,9 @@ img {
   border-radius: 7px;
   transition: color .5s ease;
   width: 107px;
+}
+.submit-down-button:hover{
+  background-color: blue;
 }
 
 input[type="text"], input[type="email"], input[type="submit"] {
