@@ -385,7 +385,8 @@ img {
 .foto-team-1, .foto-team-2, .foto-team-3, .foto-team-4 {
   max-width: 23%;
 }
-img:hover{
+
+img:hover {
   background-color: blue;
 }
 
@@ -448,7 +449,8 @@ img:hover{
   transition: color .5s ease;
   width: 107px;
 }
-.submit-down-button:hover{
+
+.submit-down-button:hover {
   background-color: blue;
 }
 
