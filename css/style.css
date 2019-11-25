@@ -384,6 +384,9 @@ img {
 .foto-team-1, .foto-team-2, .foto-team-3, .foto-team-4 {
   max-width: 23%;
 }
+.foto-team-text{
+  overflow: scroll;
+}
 
 .icon-point {
   display: flex;
@@ -396,7 +399,7 @@ img {
 /*-- form-*/
 .input-down {
   display: flex;
-  flex-direction: row;
+
   justify-content: center;
 }
 
@@ -422,7 +425,8 @@ img {
   border-radius: 5px;
   background-color: white;
   padding: 5px 0;
-  width: 207px;;
+  width: 207px;
+  margin-left: 75px;
 }
 
 .submit {
